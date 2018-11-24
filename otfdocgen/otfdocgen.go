@@ -124,6 +124,7 @@ func (otf *OTFDocGen) Read(readingFunc func(name string),
 	statsFunc func(count, start, end int),
 	progressFunc func(r int), errorFunc func(err error)) (int, error) {
 
+	readingFunc(otf.in.Name())
 	fnt, err := sfnt.ParseReaderAt(otf.in)
 	if err != nil {
 		return 0, err

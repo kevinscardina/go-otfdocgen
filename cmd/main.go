@@ -65,8 +65,8 @@ func main() {
 		os.Exit(1)
 	}
 
-	fmt.Fprintln(os.Stderr, tty.FgGreen().Start(), "  found: ",
-		tty.FgHiGreen().End(), found)
+	fmt.Fprintln(os.Stderr, tty.FgBlue().Start(), "\b\b   found: ",
+		tty.FgBlue().End(), found)
 
 	err = otfDocGen.Write(func(name string) {
 		fmt.Fprintln(os.Stderr, tty.FgGreen().Start(),
