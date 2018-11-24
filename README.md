@@ -50,7 +50,7 @@ To generate a swift enum class with all the unicode values and handy functions t
 otfdocgen -in OTFIcons.otf -out OTFIcons.swift
 ```
 
-This will generate a OTFIcons.swift file like below:
+This will generate a OTFIcons.swift file like below, and example of using this file can be found [here](https://github.com/kevinscardina/swift-otficon):
 
 ```swift
 
