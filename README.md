@@ -61,8 +61,6 @@ To generate a html file try:
 otfdocgen -in OTFIcons.otf -out OTFIcons.html
 ```
 
-see the output [here](./OTFIcons.html).
-
 To generate a swift enum class with all the unicode values and handy functions try:
 
 ```
