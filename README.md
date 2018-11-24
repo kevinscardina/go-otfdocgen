@@ -24,7 +24,26 @@ This will create the executable `otfdocgen` in a `build` directory and copy it i
 
 ## Usage
 
-Once installed you can run the `otfdocgen -help` to get the list of commands.  A swift, html, and md, template are included in the application.  If you would like to use a different template, you can use the `-tmpl <filename>` option to use your own template file.  
+Once installed you can run the `otfdocgen -help` to get the list of commands.  
+
+```
+Usage of otfdocgen:
+  -end int
+      Glyph index to end searching for glyphs at (default 32767)
+  -in string
+      OTF file to parse (default stdin)
+  -out string
+      File to put output, include an extension to use that template for generation (default stdout)
+  -prefix string
+      Suffix to add to rune name when glyph name does not exist (default u0x) (default "u0x")
+  -start int
+      Glyph index to start searching for glyphs at (default -32768) (default -32768)
+  -suffix string
+      Suffix to add to rune name when glyph name does not exist (default )
+  -tmpl string
+      Template file for output (default MD)
+```
+A swift, html, and md, template are included in the application.  If you would like to use a different template, you can use the `-tmpl <filename>` option to use your own template file.  
 
 ### Examples
 
