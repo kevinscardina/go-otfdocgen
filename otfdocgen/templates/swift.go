@@ -8,9 +8,9 @@ const (
 
 import UIKit
     
-/***
+/**
  Different Glyphs for runes in {{print .Name}} 
- 
+
  [OTFDocGen](https://github.com/kevinscardina/swift-otficon)
  */
 enum {{print .TypeName}}: String, CustomStringConvertible, CaseIterable {
