@@ -4,7 +4,7 @@ const (
 	HTML = `
 <html>
 	<head>
-		<title>Fonts</title>
+		<title>Glyphs in {{.Name}}</title>
 		<style>
 			body {
 					background-color: white;
