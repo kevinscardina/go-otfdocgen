@@ -28,14 +28,20 @@ Once installed you can run the `otfdocgen -help` to get the list of commands.
 
 ```
 Usage of otfdocgen:
+  -addr string
+      address to bind to.
   -end int
       Glyph index to end searching for glyphs at (default 32767)
   -in string
       OTF file to parse (default stdin)
   -out string
       File to put output, include an extension to use that template for generation (default stdout)
+  -port string
+      port to bind to. (default "8080")
   -prefix string
       Suffix to add to rune name when glyph name does not exist (default u0x) (default "u0x")
+  -srv
+      Add flag if you would like this to run as a server.
   -start int
       Glyph index to start searching for glyphs at (default -32768) (default -32768)
   -suffix string
@@ -46,6 +52,14 @@ Usage of otfdocgen:
 A swift, html, and md, template are included in the application.  If you would like to use a different template, you can use the `-tmpl <filename>` option to use your own template file.  
 
 ### Examples
+
+To run as a server so you can go to `addr:port` try:
+
+```
+otfdocgen -svr -addr "" -port "8080"
+```
+
+then open your browser and put in URL `localhost:8080`.
 
 To generate a Markdown document from a font try:
 
