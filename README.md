@@ -8,17 +8,21 @@ otfdocgen is a generator that will open a OTF (OpenType Font) and search for the
 
 otfdocgen uses [Go](https://golang.org/doc/install).
 
-Once Go is install, you can clone otfdocgen with 
+Once Go is install, you can clone otfdocgen  with 
 
 ```
 go get github.com/kevinscardina/go-otfdocgen/...
 ```
+
+*this might need* `sudo` *depending on your system*
 
 Once cloned, go to the `$GOPATH/github.com/kevinscardina/go-otfdocgen` directory and run the `install.sh` script.
 
 ```
 ./install.sh
 ```
+
+*this might need* `sudo` *depending on your system*
 
 This will create the executable `otfdocgen` in a `build` directory and copy it into your `/usr/local/bin` directory which should already be in your path.
 
