@@ -13,8 +13,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/kevinscardina/go-otfdocgen-web/otfdocgenweb/templates"
 	"github.com/kevinscardina/go-otfdocgen/otfdocgen"
+	"github.com/kevinscardina/go-otfdocgen/otfdocgen/templates"
 	"github.com/popmedic/go-color/colorize/tty"
 )
 
