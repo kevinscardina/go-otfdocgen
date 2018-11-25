@@ -26,6 +26,8 @@ Once cloned, go to the `$GOPATH/github.com/kevinscardina/go-otfdocgen` directory
 
 This will create the executable `otfdocgen` in a `build` directory and copy it into your `/usr/local/bin` directory which should already be in your path.
 
+[video](./otfdocgen.mp4)
+
 ## Usage
 
 Once installed you can run the `otfdocgen -help` to get the list of commands.  
